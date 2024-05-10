@@ -1,0 +1,103 @@
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.Table td,
+th {
+  border: none !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+.status {
+  padding: 8px;
+  border-radius: 9px;
+}
+
+.Details {
+  color: #00b5ff !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}
+
+.Table {
+  width: 100%;
+}
+
+.Table h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TablePagination-root {
+  display: flex;
+  align-items: center;
+}
+
+.TablePagination-toolbar {
+  margin-left: auto;
+}
+
+.MuiTablePagination-caption {
+  color: var(--black);
+}
+
+.MuiTablePagination-input,
+.MuiTablePagination-select {
+  color: var(--black);
+}
+
+.TableContainer {
+  max-height: 19.5rem; /* Adjust the maximum height as needed */
+  overflow-y: scroll;
+}
+
+/* Customize scrollbar */
+/* Scrollbar styling */
+.TableContainer::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.TableContainer::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Track color */
+}
+
+.TableContainer::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); /* Thumb color */
+  border-radius: 4px; /* Round corners of the thumb */
+}
+
+/* Slightly visible scrollbar */
+.TableContainer::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5); /* Adjust color when hovered */
+}
+
+/* Ensure the table header remains fixed while scrolling */
+/* Ensure the table header remains fixed while scrolling */
+
+/* Ensure the table header remains fixed while scrolling */
+
+
+
+
